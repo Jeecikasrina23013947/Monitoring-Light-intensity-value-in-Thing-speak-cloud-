@@ -97,14 +97,14 @@ Prototype and build IoT systems without setting up servers or developing web sof
 
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
 #define ldr_pin 34
-char ssid[] = "Aakash";   // your network SSID (name) 
-char pass[] = "zxcvbnm";   // your network password
+char ssid[] = "OPPO A59 5G";   // your network SSID (name) 
+char pass[] = "jeecikasrina";   // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
 
-unsigned long myChannelNumber =  2487109;
+unsigned long myChannelNumber =  3169408;
 const int ChannelField = 1;
-const char * myWriteAPIKey = "4TL0XDHT9DBX1YD4";
+const char * myWriteAPIKey = "P81CXNG98QMH66YE";
 
 int ldrValue = 0;       // Variable to store raw analog value
 int lightPercentage = 0;
